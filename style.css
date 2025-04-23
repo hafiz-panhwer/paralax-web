@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bruno Ace SC', cursive, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #181818;
+    color: #fff;
+    position: sticky;
+    top: 0;
+
+}
+
+.logo h1 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+nav ul li {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+}
+
+nav ul li:hover {
+    color: #ff4d1f;
+    border-bottom: 2px solid #ff4d1f;
+
+}
+
+button {
+    background: #ff4d1f;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-family: Bruno Ace SC, cursive;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    color: #ff4d1f;
+    background-color: #fff;
+}
+
+.section-1 {
+    background-image: url(./images/photo-1610128114197-485d933885c5.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.section-2 {
+    background-image: url(./images/photo-1558985040-ed4d5029dd50.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.section-3 {
+    background-image: url(./images/photo-1562095241-8c6714fd4178.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.section-4 {
+    background-image: url(./images/photo-1543722530-d2c3201371e7.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.section-1,
+.section-2,
+.section-3,
+.section-4 h1 {
+    text-align: center;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-weight: 500;
+    font-size: 77px;
+    text-transform: capitalize;
+}
+
+.lorem {
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    background-color: #181818;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Bruno Ace SC', cursive, sans-serif;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-top: 1px solid #e1e1e1;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+footer ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    font-size: 14px;
+    cursor: pointer;
+}
